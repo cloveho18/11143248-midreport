@@ -1,3 +1,5 @@
+/*專案有製作動畫效果*/
+
 * {
     font-family: Arial, 微軟正黑體;
     padding: 0;
@@ -70,6 +72,11 @@ header a:hover {
     padding: 10px 0px 10px 40px;
 }
 
+.otherinf {
+    background-color: #c0dbd6;
+    text-align: center;
+}
+
 .shopoaoa {
     width: 50%;
     background-color: #a6e1fa;
@@ -96,6 +103,7 @@ header a:hover {
     border-right-width: 200px;
 }
 
+/*動畫效果*/
 @keyframes html {
     from {
         border-right-width: 0px;
@@ -111,6 +119,7 @@ header a:hover {
     border-right-width: 150px;
 }
 
+/*動畫效果*/
 @keyframes css {
     from {
         border-right-width: 0px;
@@ -126,6 +135,7 @@ header a:hover {
     border-right-width: 10px;
 }
 
+/*動畫效果*/
 @keyframes javascript {
     from {
         border-right-width: 0px;
@@ -162,6 +172,7 @@ header a:hover {
     border-right-width: 250px;
 }
 
+/*動畫效果*/
 @keyframes aikido {
     from {
         border-right-width: 0px;
@@ -177,6 +188,7 @@ header a:hover {
     border-right-width: 80px;
 }
 
+/*動畫效果*/
 @keyframes karate {
     from {
         border-right-width: 0px;
@@ -192,6 +204,7 @@ header a:hover {
     border-right-width: 170px;
 }
 
+/*動畫效果*/
 @keyframes kendo {
     from {
         border-right-width: 0px;
