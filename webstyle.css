@@ -1,0 +1,271 @@
+* {
+    font-family: Arial, 微軟正黑體;
+    padding: 0;
+    margin: 0;
+}
+
+.space {
+    height: 50px;
+    background-color: #354F52;
+}
+
+.slogan {
+    background-color: #485652;
+    color: white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+header {
+    background-color: rgba(35, 28, 26, 0.8);
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    border-radius: 0px 0px 15px 15px;
+}
+
+header ul {
+    text-align: center;
+    line-height: 50px;
+}
+
+header li {
+    display: inline;
+    margin-right: 4vw;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+
+
+.shop {
+    display: flex;
+}
+
+.shophhh {
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    padding: 10px 30px 10px 0px;
+    background-color: #cce3de;
+}
+
+.aboutme {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    background-color: #cce3de;
+    padding: 10px 0px 10px 40px;
+}
+
+.shopoaoa {
+    width: 50%;
+    background-color: #a6e1fa;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: right;
+    padding: 10px 30px 10px 40px;
+}
+
+.shopoaoa li {
+    text-align: center;
+    line-height: 2em;
+    width: 100px;
+    border-right-color: #E0E9A3;
+    border-right-style: solid;
+    border-radius: 15px;
+    background-color: #A8BFB1;
+    color: rgb(47, 56, 65);
+}
+
+.html {
+    animation: html 5s ease-out;
+    border-right-width: 200px;
+}
+
+@keyframes html {
+    from {
+        border-right-width: 0px;
+    }
+
+    to {
+        order-right-width: 200px;
+    }
+}
+
+.css {
+    animation: css 5s ease-out;
+    border-right-width: 150px;
+}
+
+@keyframes css {
+    from {
+        border-right-width: 0px;
+    }
+
+    to {
+        order-right-width: 150px;
+    }
+}
+
+.javascript {
+    animation: javascript 5s ease-out;
+    border-right-width: 10px;
+}
+
+@keyframes javascript {
+    from {
+        border-right-width: 0px;
+    }
+
+    to {
+        order-right-width: 10px;
+    }
+}
+
+.info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    background-color: #b5e2fa;
+    padding: 10px 0px 10px 40px;
+}
+
+.info li {
+    text-align: center;
+    line-height: 2em;
+    width: 100px;
+    border-right-color: #E0E9A3;
+    border-right-style: solid;
+    border-radius: 15px;
+    background-color: #A8BFB1;
+    color: rgb(47, 56, 65);
+}
+
+.aikido {
+    animation: aikido 5s ease-out;
+    border-right-width: 250px;
+}
+
+@keyframes aikido {
+    from {
+        border-right-width: 0px;
+    }
+
+    to {
+        order-right-width: 300px;
+    }
+}
+
+.karate {
+    animation: karate 5s ease-out;
+    border-right-width: 80px;
+}
+
+@keyframes karate {
+    from {
+        border-right-width: 0px;
+    }
+
+    to {
+        order-right-width: 80px;
+    }
+}
+
+.kendo {
+    animation: kendo 5s ease-out;
+    border-right-width: 170px;
+}
+
+@keyframes kendo {
+    from {
+        border-right-width: 0px;
+    }
+
+    to {
+        order-right-width: 170px;
+    }
+}
+
+.product {
+    display: flex;
+    background-color: #d0e9fa;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 90px 90px;
+}
+
+.product div {
+    width: 300px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 10px;
+    border: #505c59 solid 0.5px;
+}
+
+.product h3 {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.c1 {
+    border-width: 2px;
+    border-style: solid;
+    border-color: #000000;
+}
+
+.activity {
+    display: flex;
+    background-color: #ede9db;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 90px 90px;
+}
+
+.activity div {
+    width: 300px;
+    text-align: center;
+}
+
+.activity img {
+    width: 100%;
+    border-radius: 10px;
+    ;
+}
+
+.activity h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.activity h4 {
+    margin: 0px 0px 20px;
+}
+
+footer {
+    background-color: #2f3e46;
+    color: #B7B7B7;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
